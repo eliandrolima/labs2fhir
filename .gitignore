@@ -1,0 +1,92 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Logs and local files
+*.log
+*.pot
+*.mo
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# macOS / Linux / Windows
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# PDF/JSON de exemplos ou temporários
+examples/*.json
+examples/*.txt
+examples/*.log
+
+# Credentials/secrets (adicionar se houver)
+.env
+*.env
+
+# mypy/mypy_cache
+.mypy_cache/
+
+# Ignore outputs
+output/
+outputs/
+
+# Ignore OpenAI API cache/temp if any
+.openai_cache/
+openai_cache/
+
+# Extras
+teste/
+exames/
