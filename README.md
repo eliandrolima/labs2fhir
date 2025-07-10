@@ -12,7 +12,7 @@ Este é apenas o primeiro teste. Com a evolução do projeto novas funções e c
 
 ## 🛠️ Funcionalidades Principais
 
-* **Upload de PDF** com contendo resultados de exames laboratoriais
+* **Upload de PDF** contendo resultados de exames laboratoriais
 * **Extração robusta** do texto do PDF
 * **Classificação automática** (LLM) para validar se o arquivo contém realmente exames laboratoriais
 * **Estruturação dos dados** (NLP/LLM) em formato padronizado (data, metodologia, parâmetros, resultados, unidades, valores de referência)
@@ -57,28 +57,28 @@ streamlit run app.py
 ```
 > **Obs:** Normalmente a página abre automaticamente e roda na porta 8501 (http://localhost:8501)
 
-* No local indicado, arraste e solte o PDF ou selecione-o a partir de seu diretório.
+* No local indicado, arraste e solte o PDF ou selecione-o a partir do seu diretório.
 * O sistema extrairá, classificará e converterá o PDF em um recurso FHIR, exibindo o resultado em JSON puro.
 
-> 🚨 **ALERTA IMPORTANTÍSSIMO**: O CONTEÚDO DO PDF SERÁ ENVIADO PARA PROCESSAMENTO NA OPENAI, PORTANTO CERTIFIQUE-SE DE QUE O PDF UTILIZADO ESTEJA DEVIDAMENTE ANONIMIZADO OU QUE VOCÊ TENHA AUTORIZAÇÃO EXPLÍCITA DO DONO DO EXAME LABORATORIAL PARA FAZER OS TESTE.
+> 🚨 **ALERTA IMPORTANTÍSSIMO**: O CONTEÚDO DO PDF SERÁ ENVIADO PARA PROCESSAMENTO NA OPENAI, PORTANTO CERTIFIQUE-SE DE QUE O PDF UTILIZADO ESTEJA DEVIDAMENTE ANONIMIZADO OU QUE VOCÊ TENHA AUTORIZAÇÃO EXPLÍCITA DO DONO DO EXAME LABORATORIAL PARA FAZER O TESTE.
 
 ---
 
 ## 🔄 Fluxo da Aplicação
 
 1. **Recebimento do PDF**
-2. **Extração de texto**
+2. **Extração do texto**
 3. **Classificação do conteúdo (LLM)**
-4. **Estruturação dos dados (LLM/NLP)**
-5. **Mapeamento e geração do recurso FHIR (LLM)**
-6. **Exibição do JSON FHIR**
+4. **Estruturação dos dados em markdown (LLM/NLP)**
+5. **Mapeamento e geração do(s) recurso(s) FHIR (LLM)**
+6. **Exibição do FHIR em formato JSON**
 
 ---
 
 ## 🧩 Principais Dependências
 
 * `dotenv` (variáveis de ambiente)
-* `PyMuPDF` (extração PDF)
+* `PyMuPDF` (extração do coneteúdo do PDF)
 * `LangChain` (LLM/NLP)
 * `Streamlit` (UI)
 * 
