@@ -78,7 +78,7 @@ streamlit run app.py
 ## 🧩 Principais Dependências
 
 * `dotenv` (variáveis de ambiente)
-* `PyMuPDF` (extração do coneteúdo do PDF)
+* `PyMuPDF` (extração do conteúdo do PDF)
 * `LangChain` (LLM/NLP)
 * `Streamlit` (UI)
 * 
