@@ -17,9 +17,9 @@ def estruturar_exame_laboratorial(texto: str) -> str:
     """
     llm = ChatOpenAI(
         api_key=openai_api_key,
-        model="gpt-4.1-nano-2025-04-14",
+        model="gpt-4.1-nano-2025-04-14", # se quiser troque por outro modelo
         temperature=0.0,
-        max_tokens=2048
+        max_tokens=32768
     )
 
     prompt = ChatPromptTemplate.from_messages([

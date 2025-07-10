@@ -12,11 +12,3 @@ def validar_pdf(caminho_pdf: str, tamanho_max_mb: float = 1.0) -> bool:
         print(f"Arquivo excede o limite de {tamanho_max_mb} MB.")
         return False
     return True
-
-# Exemplo de uso:
-if __name__ == "__main__":
-    caminho = input("Informe o caminho do arquivo PDF: ")
-    if validar_pdf(caminho):
-        print("Arquivo validado com sucesso.")
-    else:
-        print("Arquivo inválido. Tente novamente.")

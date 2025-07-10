@@ -15,7 +15,7 @@ def gerar_fhir_via_llm(markdown: str) -> str:
     """
     llm = ChatOpenAI(
         api_key=openai_api_key,
-        model="gpt-4.1-nano-2025-04-14",  # Ajuste conforme necessário
+        model="gpt-4.1-nano-2025-04-14",  # se quiser troque por outro modelo
         temperature=0.0,
         max_tokens=32768
     )

@@ -1,2 +1,5 @@
-pymupdf
-pdfplumber
+streamlit
+python-dotenv
+langchain
+langchain-openai
+PyMuPDF

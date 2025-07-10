@@ -44,7 +44,7 @@ if uploaded_file is not None:
     else:
         st.error("Arquivo PDF inválido ou muito grande.")
 
-st.caption("Desenvolvido para interoperabilidade HL7 FHIR • IA em Saúde • 2025")
+st.caption("Aplicação destinada a gerar recursos HL7 FHIR automaticamente a partir de PDFs, via LLMs. Versão inicial de teste.")
 
 st.markdown("""
 ---

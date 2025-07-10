@@ -12,7 +12,7 @@ openai_api_key = os.getenv("OPENAI_API_KEY")
 def classificar_exame_laboratorial(texto: str) -> bool:
     llm = ChatOpenAI(
         api_key=openai_api_key,
-        model="gpt-4.1-nano-2025-04-14",
+        model="gpt-4.1-nano-2025-04-14", # se quiser troque por outro modelo
         temperature=0.0,
         max_tokens=5
     )
