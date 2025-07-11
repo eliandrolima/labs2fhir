@@ -1,4 +1,4 @@
-# 🧬 LABS2FHIR: Conversão de Exames Laboratoriais de PDFs para FHIR - v0.0.1
+# 🧬 LABS2FHIR: Conversão de Exames Laboratoriais de PDFs para FHIR - v0.1.0
 
 **LABS2FHIR** é uma aplicação teste em Python que automatiza a extração, classificação e padronização de resultados de exames laboratoriais em PDF para o padrão internacional HL7 FHIR R4, utilizando inteligência artificial e técnicas avançadas de NLP.
 
@@ -81,7 +81,6 @@ streamlit run app.py
 * `PyMuPDF` (extração do conteúdo do PDF)
 * `LangChain` (LLM/NLP)
 * `Streamlit` (UI)
-* 
 
 Veja o arquivo `requirements.txt` para a lista completa.
 
